@@ -1,0 +1,46 @@
+#
+# ----------------Point distribution----------------
+#
+# General:
+# - single runnable file + input data files: 2 out of 2 points
+#
+# Choice of a good stock:
+# - found a suitable stock: 0.5 out of 2 points
+# (Microsoft is a dividend paying stock; this would change the option pricing.)
+# (The source of stock and option data is not given.)
+# - enough data: 1 out of 2 points
+# (You only have data for one maturity.)
+# - handling csv files: 2 out of 2 points
+#
+# (a) Time Series:
+# - normally distributed? (QQ plot): 1.5 out of 2 points
+# (Discussion of plot missing.)
+# - independently distributed? (autocorrelation plot): 1.5 out of 2 points
+# (Discussion of plot missing.)
+# - volatility estimate: 2 out of 2 points
+#
+# (b) Risk-free interest rate:
+# - right rate from ECB or US treasury (or other suitable source): 1 out of 4 points
+# (No source given, only one rate looked up.)
+# - interpolation: 0 out of 2 points
+# (No interpolation or different appropriate rates.)
+#
+# (c) Option pricing:
+# - working pricing algorithm: 4 out of 4 points
+# - evaluated different maturities and strike prices: 1 out of 2 points
+# (No different maturities.)
+# - good comparison to data (e.g., plots): 1 out of 4 points
+# (Insufficient comparison to data: Just one plot (without good labeling) without explanation or discussion.)
+# 
+# (d) Option Pricing Methods:
+# - list of methods: 1.5 out of 2 points
+# (Finite difference method for Black-Scholes equation missing.)
+# - list of advantages/disadvantages: 1 out of 2 points
+# (Many inaccuracies.)
+# Note: At least the following methods and advantages/disadvantages were discussed in class:
+# -- Binomial tree (very versatile)
+# -- Black-Scholes formula (very efficient, but must be modified for options other than European calls)
+# -- Monte-Carlo method (usually very efficient)
+# -- Black-Scholes equation (works for different payoffs)
+
+# Total points: 20 out of 34 points
